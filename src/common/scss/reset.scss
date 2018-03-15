@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+dl,
+dd,
+ul,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+th {
+    font-weight: normal !important;
+}
+
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.show:hover {
+    color: red !important;
+}
+
+.show:visited {
+    color: purple !important;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+.ivu-auto-complete.ivu-select-dropdown {
+    height: 200px !important;
+    overflow: auot;
+}
+
+.ivu-select-dropdown{
+    .ivu-select-not-found{
+        color: rgb(230, 93, 9) !important;
+    }
+}
+
+.planOperation{
+    height: 100%;
+    .ivu-tabs {
+        height: 100%;
+        .ivu-tabs-bar {
+            border-bottom: 1px solid #d9e5f0;
+            margin: 0;
+            .ivu-tabs-nav-container {
+                .ivu-tabs-nav-wrap {
+                    .ivu-tabs-nav-scroll {
+                        .ivu-tabs-nav {
+                            .ivu-tabs-tab {
+                                width: 110px;
+                                text-align: center;
+                                padding-right: 0;
+                                padding-left: 0;
+                                // background-color: #a8c9f7;
+                                // border: 1px solid #bcd8f5;
+                                // color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .ivu-tabs-content {
+            // background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            height: 100%;
+            padding: 15px;
+            overflow: auto;
+        }
+    }
+}
